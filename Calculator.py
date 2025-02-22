@@ -49,7 +49,7 @@ while True:
     elif choice == "5":
         try:
             print(f"{num1} ** {num2} = {power(num1, num2)}")
-        except ValueError as undefined:
-            print(undefined)
+        except ValueError as e:
+            print(e)
     else:
         print("Invalid choice! Please try again.")
