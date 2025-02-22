@@ -1,2 +1,2 @@
 # CLIculator
-A simple CLI calculator that can perform addition, subtraction, multiplication, division, and exponential calculations.
+A simple CLI calculator that can handle addition, subtraction, multiplication, division, exponents, and square roots.
