@@ -41,7 +41,7 @@ while True:
         break
     
     # Handling the calculation and input errors
-    if choice in ("1", "2", "3", "4", "5"):
+    if choice in ("1", "2", "3", "4", "5", "6"):
         try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
