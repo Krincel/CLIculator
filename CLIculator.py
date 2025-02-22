@@ -41,12 +41,17 @@ while True:
         break
     
     # Handling the calculation and input errors
-    if choice in ("1", "2", "3", "4", "5", "6"):
+    if choice in ("1", "2", "3", "4", "5"):
         try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
         except ValueError:
             print("Invalid input! Please enter numeric values.")
+    elif choice == "6":
+        try:
+            num = float(input("Enter a number"))
+        except ValueError:
+            print("Invalid input! Please enter a numeric value.")
             continue
     
     # Performing the calculation and handling potential errors
