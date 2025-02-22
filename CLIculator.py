@@ -25,7 +25,7 @@ def square_root(x):
 # Displaying the main menu
 while True:
     print("\nSimple Calculator")
-    print("Please select an operation:")
+    print("Please select an operation: ")
     print("1: Addition")
     print("2: Subtraction")
     print("3: Multiplication")
@@ -49,7 +49,7 @@ while True:
             print("Invalid input! Please enter numeric values.")
     elif choice == "6":
         try:
-            num = float(input("Enter a number"))
+            num = float(input("Enter a number: "))
         except ValueError:
             print("Invalid input! Please enter a numeric value.")
             continue
